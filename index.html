@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <!-- LINKS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/735ef75283.js" crossorigin="anonymous"></script>
+
+    <!-- SLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <!-- scroller -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- counter -->
+    <script src="counter.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <img src="images/main-bg.png" alt="" srcset="">
+        <nav class="title_bar">
+            <header>
+                <h1>TRAVEL &nbsp; AGENCY</h1>
+                <div class="login">
+                    <a href="#">Login</a>
+                    <a href="#" style="background-color: #FFD53A; color: #000;">Sign Up</a>
+                </div>
+            </header>
+        </nav>
+        <div class="main">
+            <div data-aos="fade-left" class="main-cont" data-aos-once="true">
+                <p>A Destination For The New Millennium</p>
+                <div class="search">
+                    <input type="search" name="" class="srch" placeholder="Search your destination here.....">
+                    <button class="srch-btn"><i class="fas fa-search"></i>Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="book-slot">
+            <span>
+                <p>Location</p>
+                <input type="text" name="" id="" placeholder="Place name here...">
+            </span>
+            <span>
+                <p>Country</p>
+                <select id="country" name="country">
+                    <option disabled selected hidden>Choose Nation...</option>
+                    <option value="None">None</option>
+                    <option value="Afganistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="American Samoa">American Samoa</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Anguilla">Anguilla</option>
+                    <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Belize">Belize</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bermuda">Bermuda</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bonaire">Bonaire</option>
+                    <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Canary Islands">Canary Islands</option>
+                    <option value="Cape Verde">Cape Verde</option>
+                    <option value="Cayman Islands">Cayman Islands</option>
+                    <option value="Central African Republic">Central African Republic</option>
+                    <option value="Chad">Chad</option>
+                    <option value="Channel Islands">Channel Islands</option>
+                    <option value="Chile">Chile</option>
+                    <option value="China">China</option>
+                    <option value="Christmas Island">Christmas Island</option>
+                    <option value="Cocos Island">Cocos Island</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Comoros">Comoros</option>
+                    <option value="Congo">Congo</option>
+                    <option value="Cook Islands">Cook Islands</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Cote DIvoire">Cote DIvoire</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Curaco">Curacao</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Czech Republic">Czech Republic</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Djibouti">Djibouti</option>
+                    <option value="Dominica">Dominica</option>
+                    <option value="Dominican Republic">Dominican Republic</option>
+                    <option value="East Timor">East Timor</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                    <option value="Eritrea">Eritrea</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Falkland Islands">Falkland Islands</option>
+                    <option value="Faroe Islands">Faroe Islands</option>
+                    <option value="Fiji">Fiji</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="French Guiana">French Guiana</option>
+                    <option value="French Polynesia">French Polynesia</option>
+                    <option value="French Southern Ter">French Southern Ter</option>
+                    <option value="Gabon">Gabon</option>
+                    <option value="Gambia">Gambia</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Gibraltar">Gibraltar</option>
+                    <option value="Great Britain">Great Britain</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Greenland">Greenland</option>
+                    <option value="Grenada">Grenada</option>
+                    <option value="Guadeloupe">Guadeloupe</option>
+                    <option value="Guam">Guam</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Guinea">Guinea</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Hong Kong">Hong Kong</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="India">India</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Isle of Man">Isle of Man</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="Korea North">Korea North</option>
+                    <option value="Korea Sout">Korea South</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libya">Libya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Macau">Macau</option>
+                    <option value="Macedonia">Macedonia</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Marshall Islands">Marshall Islands</option>
+                    <option value="Martinique">Martinique</option>
+                    <option value="Mauritania">Mauritania</option>
+                    <option value="Mauritius">Mauritius</option>
+                    <option value="Mayotte">Mayotte</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Midway Islands">Midway Islands</option>
+                    <option value="Moldova">Moldova</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Montserrat">Montserrat</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="Nambia">Nambia</option>
+                    <option value="Nauru">Nauru</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherland Antilles">Netherland Antilles</option>
+                    <option value="Netherlands">Netherlands (Holland, Europe)</option>
+                    <option value="Nevis">Nevis</option>
+                    <option value="New Caledonia">New Caledonia</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Niue">Niue</option>
+                    <option value="Norfolk Island">Norfolk Island</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Palau Island">Palau Island</option>
+                    <option value="Palestine">Palestine</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Papua New Guinea">Papua New Guinea</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Phillipines">Philippines</option>
+                    <option value="Pitcairn Island">Pitcairn Island</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Republic of Montenegro">Republic of Montenegro</option>
+                    <option value="Republic of Serbia">Republic of Serbia</option>
+                    <option value="Reunion">Reunion</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="St Barthelemy">St Barthelemy</option>
+                    <option value="St Eustatius">St Eustatius</option>
+                    <option value="St Helena">St Helena</option>
+                    <option value="St Kitts-Nevis">St Kitts-Nevis</option>
+                    <option value="St Lucia">St Lucia</option>
+                    <option value="St Maarten">St Maarten</option>
+                    <option value="St Pierre & Miquelon">St Pierre & Miquelon</option>
+                    <option value="St Vincent & Grenadines">St Vincent & Grenadines</option>
+                    <option value="Saipan">Saipan</option>
+                    <option value="Samoa">Samoa</option>
+                    <option value="Samoa American">Samoa American</option>
+                    <option value="San Marino">San Marino</option>
+                    <option value="Sao Tome & Principe">Sao Tome & Principe</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Sierra Leone">Sierra Leone</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Solomon Islands">Solomon Islands</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Suriname">Suriname</option>
+                    <option value="Swaziland">Swaziland</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Tahiti">Tahiti</option>
+                    <option value="Taiwan">Taiwan</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tokelau">Tokelau</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="Trinidad & Tobago">Trinidad & Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Turks & Caicos Is">Turks & Caicos Is</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United Arab Erimates">United Arab Emirates</option>
+                    <option value="United States of America">United States of America</option>
+                    <option value="Uraguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Vatican City State">Vatican City State</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+                    <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+                    <option value="Wake Island">Wake Island</option>
+                    <option value="Wallis & Futana Is">Wallis & Futana Is</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zaire">Zaire</option>
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                </select>
+            </span>
+            <span>
+                <p>Duration</p>
+                <label for="from">From</label>
+                <input type="date" name="" id="duration" placeholder="none">
+            </span>
+            <span>
+                <p>&nbsp;</p>
+                <label for="to">To</label>
+                <input type="date" name="" id="duration" placeholder="none">
+            </span>
+            <span>
+                <p>Guests</p>
+                <div class="number">
+
+                    <button onclick="decrementValue()">-</button>
+                    <input readonly type="text" id="number" value="0" />
+                    <button onclick="incrementValue()">+</button>
+
+                </div>
+            </span>
+            <span>
+                <a href="#"><button>Book</button></a>
+            </span>
+        </div>
+    </div>
+
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="100%" height="650" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0">
+            </iframe>
+        </div>
+    </div>
+
+    <!--==================================================      WHY US      ====================================================-->
+    <div class="why-us">
+        <h1 class="title">Why to choose us ?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend ut imperdiet arcu aliquam vel amet urna et.
+            Vitae in at netus suscipit tortor, tempor faucibus et.</p>
+        <div class="more-why">
+            <span data-aos="zoom-in-right" data-aos-once="true">
+                <img src="images/easy_travel.png" alt="" srcset="">
+                <div class="detail">
+                    <h2>Easy Travel</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </span>
+
+            <span data-aos="zoom-in-left" data-aos-once="true">
+                <img src="images/24x7.png" alt="" srcset="">
+                <div class="detail">
+                    <h2>24x7 Support</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </span>
+
+            <span data-aos="zoom-in-right" data-aos-once="true">
+                <img src="images/value_forM.png" alt="" srcset="">
+                <div class="detail">
+                    <h2>Value for Money</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </span>
+
+            <span data-aos="zoom-in-left" data-aos-once="true">
+                <img src="images/placesB.png" alt="" srcset="">
+                <div class="detail">
+                    <h2>Beautiful Places</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+            </span>
+
+        </div>
+    </div>
+
+    <!-- ==============================================      PACKAGE PLANS       ==================================================    -->
+    <div class="package-plan">
+        <h1 class="title">Our trip package plans</h1>
+
+        <div class="plans">
+            <span id="pricecards" data-aos="zoom-in-right" data-aos-once="true">
+                <h2>Basic</h2>
+                <p>$800 <sup>per trip</sup></p>
+                <div class="plans-det">
+                    <ul class="bullets">
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                    </ul>
+                    <div class="text">
+                        <p>Free travel</p>
+                        <p>Upto 1 travelers</p>
+                        <p>24x7 support</p>
+                        <p>2 days free hotel</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="#">Buy</a>
+                </div>
+            </span>
+            <span id="pricecards" data-aos="zoom-in" data-aos-once="true">
+                <h2>PRO</h2>
+                <p>$1700 <sup>per trip</sup></p>
+                <div class="plans-det">
+                    <ul class="bullets">
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                    </ul>
+                    <div class="text">
+                        <p>Free travel</p>
+                        <p>Upto 2 travelers</p>
+                        <p>24x7 support</p>
+                        <p>4 days free hotel</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="#">Buy</a>
+                </div>
+            </span>
+            <span id="pricecards" data-aos="zoom-in-left" data-aos-once="true">
+                <h2>Premium</h2>
+                <p>$3500 <sup>per trip</sup></p>
+                <div class="plans-det">
+                    <ul class="bullets">
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                        <li><i class="fas fa-check"></i></li>
+                    </ul>
+                    <div class="text">
+                        <p>Free travel</p>
+                        <p>Upto 3 travelers</p>
+                        <p>Free tour guide</p>
+                        <p>7 days free hotel</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a href="#">Buy</a>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <!-- ===========================================      POPULAR PLACES      ==========================================  -->
+    <div class="popular-places">
+        <h1 class="title">Most popular places</h1>
+        <div class="destination-cards">
+            <span data-aos="flip-left" data-aos-once="true">
+                <div class="view-det">
+                    <img src="images/swittzerland.png" alt="" srcset="">
+                    <a href="#">View Details</a>
+                </div>
+                <div class="detail-info">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;Swittzerland</h4>
+                    <div class="trip-detail">
+                        <p>Trip date: 25th June to 30th June</p>
+                        <p>Rating:&nbsp;
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                        </p>
+                        <p style="margin-top: 1rem;">Price:</p>
+                    </div>
+                    <div class="price-book">
+                        <h3>$ 237</h3>
+                        <a href="#">Book Package</a>
+                    </div>
+                </div>
+            </span>
+            <span data-aos="flip-left" data-aos-once="true">
+                <div class="view-det">
+                    <img src="images/Sundarvan.png" alt="" srcset="">
+                    <a href="#">View Details</a>
+                </div>
+                <div class="detail-info">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;Sundarvan</h4>
+                    <div class="trip-detail">
+                        <p>Trip date: 25th June to 30th June</p>
+                        <p>Rating:&nbsp;
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                        </p>
+                        <p style="margin-top: 1rem;">Price:</p>
+                    </div>
+                    <div class="price-book">
+                        <h3>$ 213</h3>
+                        <a href="#">Book Package</a>
+                    </div>
+                </div>
+            </span>
+            <span data-aos="flip-left" data-aos-once="true">
+                <div class="view-det">
+                    <img src="images/France.png" alt="" srcset="">
+                    <a href="#">View Details</a>
+                </div>
+                <div class="detail-info">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;France</h4>
+                    <div class="trip-detail">
+                        <p>Trip date: 25th June to 30th June</p>
+                        <p>Rating:&nbsp;
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                        </p>
+                        <p style="margin-top: 1rem;">Price:</p>
+                    </div>
+                    <div class="price-book">
+                        <h3>$ 321</h3>
+                        <a href="#">Book Package</a>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <div class="destination-cards">
+            <span data-aos="flip-right" data-aos-once="true">
+                <div class="view-det">
+                    <img src="images/Itally.png" alt="" srcset="">
+                    <a href="#">View Details</a>
+                </div>
+                <div class="detail-info">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;Itally</h4>
+                    <div class="trip-detail">
+                        <p>Trip date: 25th June to 30th June</p>
+                        <p>Rating:&nbsp;
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                        </p>
+                        <p style="margin-top: 1rem;">Price:</p>
+                    </div>
+                    <div class="price-book">
+                        <h3>$ 478</h3>
+                        <a href="#">Book Package</a>
+                    </div>
+                </div>
+            </span>
+            <span data-aos="flip-right" data-aos-once="true">
+                <div class="view-det">
+                    <img src="images/Dubai.png" alt="" srcset="">
+                    <a href="#">View Details</a>
+                </div>
+                <div class="detail-info">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;Dubai</h4>
+                    <div class="trip-detail">
+                        <p>Trip date: 25th June to 30th June</p>
+                        <p>Rating:&nbsp;
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                        </p>
+                        <p style="margin-top: 1rem;">Price:</p>
+                    </div>
+                    <div class="price-book">
+                        <h3>$ 638</h3>
+                        <a href="#">Book Package</a>
+                    </div>
+                </div>
+            </span>
+            <span data-aos="flip-right" data-aos-once="true">
+                <div class="view-det">
+                    <img src="images/Maldaves.png" alt="" srcset="">
+                    <a href="#">View Details</a>
+                </div>
+                <div class="detail-info">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp;Maldaves</h4>
+                    <div class="trip-detail">
+                        <p>Trip date: 25th June to 30th June</p>
+                        <p>Rating:&nbsp;
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star" style="color: #FFAC33;"></i>
+                            <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                        </p>
+                        <p style="margin-top: 1rem;">Price:</p>
+                    </div>
+                    <div class="price-book">
+                        <h3>$ 370</h3>
+                        <a href="#">Book Package</a>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <!-- ================================================     CONTACT US      =============================================    -->
+    <div class="contact-us">
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+                <input type="email" name="" id="" placeholder="Enter your email">
+                <textarea name="" id="" cols="50" rows="15" placeholder="Say some thing here..."></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- ===============================================     HAPPY CUSTOMERS     ================================================== -->
+    <div class="happy-cust">
+        <h1 class="title">Our Happy Customers</h1>
+        <div class="splide">
+            <div class="splide__arrows">
+                <button class="splide__arrow splide__arrow--prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next">
+                    <i class="fas fa-chevron-right"></i>
+
+                </button>
+            </div>
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="slider-cont">
+                            <div class="customer">
+                                <img src="images/aaditya.png" alt="" srcset="" style="transform: scale(.8);">
+                                <h4>Aaditya Mishra</h4>
+                                <div>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                                </div>
+                            </div>
+                            <div class="quotes">
+                                <i id="left-quote" class="fas fa-quote-left"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione veniam itaque
+                                    deserunt distinctio autem laboriosam laborum asperiores laudantium?
+
+                                </p>
+                                <i id="right-quote" class="fas fa-quote-right"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider-cont">
+                            <div class="customer">
+                                <img src="images/ankush.png" alt="" srcset="" style="transform: scale(.8);">
+                                <h4>Ankush Singh</h4>
+                                <div>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                                </div>
+                            </div>
+                            <div class="quotes">
+                                <i id="left-quote" class="fas fa-quote-left"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione veniam itaque
+                                    deserunt distinctio autem laboriosam laborum asperiores laudantium?
+
+                                </p>
+                                <i id="right-quote" class="fas fa-quote-right"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider-cont">
+                            <div class="customer">
+                                <img src="images/sumit.png" alt="" srcset="" style="transform: scale(.5);">
+                                <h4>Sumit Kumar Choudhary</h4>
+                                <div>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                                </div>
+                            </div>
+                            <div class="quotes">
+                                <i id="left-quote" class="fas fa-quote-left"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+                                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione veniam itaque
+                                    deserunt distinctio autem laboriosam laborum asperiores laudantium?
+
+                                </p>
+                                <i id="right-quote" class="fas fa-quote-right"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="slider-cont">
+                            <div class="customer">
+                                <img src="images/sudhir.png" alt="" srcset="" style="transform: scale(.8);">
+                                <h4>Sudhir Kumar</h4>
+                                <div>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star" style="color: #FFAC33;"></i>
+                                    <i class="fas fa-star-half-alt" style="color: #FFAC33;"></i>
+                                </div>
+                            </div>
+                            <div class="quotes">
+                                <i id="left-quote" class="fas fa-quote-left"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione veniam itaque
+                                    deserunt distinctio autem laboriosam laborum asperiores laudantium?
+
+                                </p>
+                                <i id="right-quote" class="fas fa-quote-right"
+                                    style="color: rgb(129, 129, 129); margin: 0 1rem;"></i>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ================================================     ABOUT US    ================================================= -->
+    <div class="about-us">
+        <section>
+            <div class="left-sec">
+                <h2>
+                    About Us
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies nisi sit ut nulla augue sagittis,
+                    sed lacinia tellus. Sit et consequat mi integer at id aliquam fames est elit.</p>
+                <div class="social-icons">
+                    <h4>Follow Us</h4>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <h4>Newsletter</h4>
+                <div class="search">
+                    <input type="search" name="" class="srch" placeholder="Enter your email here">
+                    <button class="srch-btn">Register</button>
+                </div>
+            </div>
+            <div class="right-sec">
+                <div class="contact-details">
+                    <h4>Contact us</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i>info@travelagency.com</li>
+                        <li><i class="fas fa-phone-alt"></i>+1 222 212 3819</li>
+                        <li><i class="fas fa-map-marker-alt"></i>43 Raymouth Rd. Baltemoer, London 3910</li>
+                    </ul>
+                </div>
+                <h4>Others</h4>
+                <ul>
+                    <li>FAQs</li>
+                    <li>Jobs</li>
+                    <li>Blog</li>
+                    <li>Team</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Terms and Conditions | Privacy Policies<br>@copywrite 2021-2024 | company | All rights reversed</p>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 400
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            new Splide('.splide', {
+                type: 'loop',
+                perPage: 1,
+                autoplay: true,
+                pagination: false,
+            }).mount();
+
+        });
+    </script>
+
+</body>
+
+</html>

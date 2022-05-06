@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    object-position: 30%;
+    filter: brightness(70%);
+
+}
+.title_bar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    z-index: 20;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: .6rem;
+}
+
+h1 {
+    color: #FFD53A;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Blinker', sans-serif;
+}
+
+header .login a {
+    text-decoration: none;
+    color: #fff;
+    padding: .6rem 1.2rem;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 400;
+
+}
+
+.main {
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-cont p {
+    font-size: 4rem;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+@media  screen and (max-width: 500px) {
+    .main-cont p{
+        width: 250px;
+        font-size: 2rem;
+    }
+}
+
+.search {
+    width: 450px;
+    position: relative;
+    top: 3rem;
+    display: flex;
+}
+@media screen and (max-width: 500px){
+    .search{
+        width: 300px;
+    }
+}
+
+.srch {
+    width: 100%;
+    height: 40px;
+    padding: 1rem;
+    border: none;
+    font-family: 'Blinker', sans-serif;
+}
+
+.srch-btn {
+    width: 150px;
+    height: 40px;
+    padding: .8rem 1rem;
+    background-color: #FFD53A;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Blinker', sans-serif;
+}
+
+.srch-btn i {
+    margin-right: 10px;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.srch-btn:focus {
+    outline: none;
+}
+
+/* ===============================================       BOOK TICKETS     =================================================== */
+
+.book-slot {
+    position: relative;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 150px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    z-index: 10;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-slot span {
+    margin: .8rem;
+}
+.book-slot span p{
+    margin-bottom: .7rem;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+}
+.book-slot input, select{
+    padding: .5rem;
+    border-radius: 0px;
+    border: 1px solid #000;
+    
+}
+
+.book-slot span a button {
+    padding: .5rem 1rem;
+    position: relative;
+    top: .9rem;
+    border: 1px solid #FFD53A;
+    cursor: pointer;
+    outline: none;
+    background-color: #FFD53A;
+}
+.book-slot span a button:hover {
+    background-color: #eee;
+    border: 1px solid #000;
+}
+.book-slot span label {
+    font-size:12px;
+    margin-right: 12px;
+}
+
+.number{
+    
+    cursor: pointer;
+}
+.number button{
+    background-color: #fff;
+    border: 1px solid #000;
+    /* border-radius: 4px; */
+    outline: none;
+    padding:.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.number input{
+    padding: .5rem;
+    text-align: center;
+    width: 80px;
+} 
+.book-slot span input:focus, select:focus{
+    outline: 1px solid #FFAC23;;
+    border: 1px solid #FFAC23;
+    border-radius: 0px;
+}
+.number button{
+    padding: .5rem;
+    cursor: pointer;
+}
+#duration{
+    cursor: text;
+}
+/* ================================================        GOOGLE MAP      =========================================== */
+
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 650px;
+    width: 100%;
+
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 650px;
+    width: 100%;
+}
+
+/* ==================================================      WHY US      ==================================================== */
+
+.why-us {
+    padding: 6rem 0;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+
+}
+
+.why-us p {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.more-why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.more-why span {
+    display: flex;
+    align-items: center;
+}
+
+.more-why span p {
+    width: 70%;
+    text-align: start;
+    margin: 20px 0 0 0;
+}
+
+.more-why span img {
+    transform: scale(.6);
+}
+
+/* ==============================================      PACKAGE PLANS       ================================================== */
+
+.package-plan {
+    padding: 6rem 0;
+    width: 100%;
+    background-color: #EFF1F3;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plans #pricecards {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 3px solid #B8B8B8;
+    border-radius: 12px;
+    margin: 4rem 2rem;
+    padding: 2rem;
+}
+
+.plans #pricecards:hover {
+    cursor: pointer;
+    transform: translateY(-2%);
+    transition: transform .2s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.plans #pricecards p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.plans-det {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.plans-det ul {
+    list-style-type: none;
+}
+
+.plans-det ul li {
+    margin-right: 20px;
+    line-height: 2.5rem;
+}
+
+.text p {
+    line-height: 1.75rem;
+}
+
+.buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #000;
+    background-color: #FFD53A;
+    padding: .6rem 6.5rem;
+}
+
+/* ===========================================      POPULAR PLACES      ========================================== */
+
+
+.popular-places {
+    padding: 6rem 0;
+}
+
+.destination-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.destination-cards span {
+    width: 250px;
+    height: 380px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    margin: 3rem;
+    overflow: hidden;
+}
+
+.destination-cards span:hover {
+    cursor: pointer;
+    transform: translateY(-3%);
+    transition: transform .4s ease-in-out;
+}
+
+.destination-cards .view-det {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.destination-cards .view-det a {
+    position: relative;
+    top: -6.5rem;
+    left: 4rem;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .5rem 1rem;
+    display: none;
+}
+
+.destination-cards .view-det:hover a {
+    display: inline-block;
+}
+
+.destination-cards span img {
+    width: 250px;
+
+}
+
+.destination-cards span .view-det:hover img {
+    transform: scale(1.07);
+    transition: transform .4s ease-in-out;
+    cursor: pointer;
+    filter: brightness(60%);
+}
+
+.destination-cards span .detail-info h4 {
+    text-align: center;
+    margin-top: .8rem;
+}
+
+.destination-cards span .detail-info .trip-detail {
+    margin: 1.2rem 1.2rem 0 1.2rem;
+}
+
+.destination-cards span .detail-info p {
+    line-height: 1.6rem;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.price-book {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.destination-cards span .detail-info .price-book h3 {
+    text-align: start;
+    padding: 0 1.4rem;
+    margin: 0;
+}
+
+.destination-cards span .detail-info .price-book a {
+
+    padding: .5rem 1.5rem;
+    background-color: #FFD53A;
+    color: #000;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* ================================================     CONTACT US      ============================================= */
+
+
+.contact-us {
+    background-image: url("../images/contact-form-img.png");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-us .contact-box {
+
+    width: 450px;
+    height: 600px;
+    margin-left: 10%;
+    transform: translateY(18%);
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 1.5rem;
+}
+@media screen and (max-width: 500px) {
+    .contact-us .contact-box{
+        width: 330px;
+    }
+}
+.contact-box h2 {
+    text-align: center;
+
+}
+
+.contact-box form {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.contact-box form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 1rem;
+    background-color: #eee;
+    border: none;
+    padding: .8rem;
+}
+
+.contact-box form input:focus {
+    outline: none;
+    border: 2px solid #FFAC23;
+    background-color: #fff;
+}
+
+.contact-box form textarea {
+    resize: none;
+    width: 100%;
+    height: 250px;
+    border: none;
+    background-color: #eee;
+    padding: .8rem;
+}
+
+.contact-box form textarea:focus {
+    outline: none;
+    border: 2px solid #FFAC33;
+    background-color: #fff;
+}
+
+.contact-box form button {
+    background-color: #FFD53A;
+    color: #000;
+    border: none;
+    padding: .7rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+
+
+/* ===============================================     HAPPY CUSTOMERS     ================================================== */
+
+
+.happy-cust {
+    padding: 6rem 0;
+}
+
+.splide {
+    width: 800px;
+    margin: auto;
+    margin-top: 5rem;
+}
+.splide__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 2rem;
+    width: 600px;
+    background-color: #eeee;
+}
+@media screen and (max-width: 800px) {
+    .splide{
+        width: 400px;
+    }
+    .slider-cont{
+        width: 300px;
+    }
+    .customer img{
+        width: 50%;
+        height: 50%;
+    }
+    .slider-cont{
+        flex-wrap: wrap;
+    }
+    .customer{
+        margin-bottom: 1rem;
+    }
+    
+}
+.splide__arrows button{
+    background-color: #FFD53A;
+    border-radius: 0px;
+    padding: 1rem;
+}
+
+.customer>div{
+    margin-top: .5rem;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customer img{
+    transform: scale(.6);
+}
+.quotes{
+    position: relative;
+}
+.quotes #left-quote{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.quotes #right-quote{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.quotes p{
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/* ================================================     ABOUT US    ================================================= */
+
+
+.about-us{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+    color: #fff;
+}
+.about-us section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+.about-us section .left-sec{
+    margin-right: 2rem;
+}
+.about-us section .left-sec p{
+    width: 300px;
+    margin-top: 1.5rem;
+    font-weight: 300;
+}
+.about-us section h4{
+    margin: 1.5rem 0;
+    font-weight: 400;
+}
+.about-us section .left-sec .social-icons i{
+    font-size: 1.5rem;
+    margin-right: .8rem;
+    cursor: pointer;
+}
+.about-us section ul{
+    line-height: 1.7rem;
+}
+.about-us section .left-sec .search{
+    top: 0;
+}
+
+.about-us section .contact-details ul{
+    list-style-type: none;
+}
+.about-us section .right-sec>ul{
+    margin-left: 2rem;
+}
+.about-us section .contact-details i{
+    margin-right: 1rem;
+}
+.copyright{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.copyright p{
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #757575;
+    font-size: 1rem;
+}
